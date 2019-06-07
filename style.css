@@ -1,0 +1,98 @@
+/*section Fine Ingredientes*/
+.container
+{
+    max-width: 1600pt;
+    border-style:  solid;
+    border-color: white;
+}
+.imgFineIngre 
+{
+    max-width: auto;
+    height: 755px;
+    background-image: url('photo/ingred_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgFineIngreText
+{
+    width: 571px;
+    height: 558px;
+    max-width: 571;
+    background-image: url('photo/ingred_image_bg.png');  
+    column-width: 571px;
+    font-family: 'Yeseva One', cursive;
+}
+.imgFineIngreText
+{
+    color: white;
+    font-family: 'Lato' bold;
+}
+.imgFineIngreItem
+{
+    text-align: left;
+}
+.description 
+{
+    top: 10%;
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+    border: 40px;
+}
+.description h1 
+{
+    color: white;
+}
+.description p 
+{
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+/*section Menu*/
+/*section Guest Review*/
+.imgreviews
+{
+    height: 771px;
+    background-image: url('photo/Reviewsbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.descriptionGR 
+{
+    top: 10%;
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+    border: 40px;
+}
+/*section Just the right food*/
+.containerjust
+{
+    max-width: auto;
+    height: 710px;
+    background-color: white;
+    color: black;
+}
+.imgmejustbg
+{
+    height: 710px;
+    background-image: url('photo/justpattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-size
+{
+    width: 200px;
+    height: 50;
+    background-color: rgba(200,159,45,0.9803921568627451);
+}
+/*section Footer*/
+.containerfooter
+{
+    max-width: auto;
+    height: 320px;
+    background-color: black;
+    color: white;
+}
