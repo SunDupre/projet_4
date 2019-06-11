@@ -1,3 +1,4 @@
+/*section MenuBar*/
 .section1
 {
     background-image:url("photo/bg.png");
@@ -20,28 +21,21 @@ p
     font-family: "Yeseva One";
 }
 /*section Fine Ingredientes*/
-.container
-{
-    max-width: 1600pt;
-    border-style:  solid;
-    border-color: white;
-}
+
 .imgFineIngre 
 {
-    max-width: auto;
-    height: 755px;
+    height: 760px;
     background-image: url('photo/ingred_bg.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 .imgFineIngreText
 {
     width: 571px;
     height: 558px;
-    max-width: 571;
+    max-width: 571px;
     background-image: url('photo/ingred_image_bg.png');  
-    column-width: 571px;
     font-family: 'Yeseva One', cursive;
 }
 .imgFineIngreText
@@ -59,7 +53,7 @@ p
     margin-top: 20px;
     font-weight: 400;
     text-align: center;
-    border: 40px;
+    
 }
 .description h1 
 {
@@ -71,11 +65,31 @@ p
     font-size: 1.3rem;
     line-height: 1.5;
 }
-/*section Menu*/
+/*Section Menu*/
+.aligncenter
+{
+    text-align: center;
+}
+.imgmenubg
+{
+    max-width: auto;
+    height: 1100px;
+    background-image: url('photo/justpattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menutextsize
+{
+    width: 420px;
+    height: 460px;
+    max-width: 420px; 
+}
+
 /*section Guest Review*/
+
 .imgreviews
 {
-    height: 771px;
+    height: 750px;
     background-image: url('photo/Reviewsbg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +102,27 @@ p
     text-align: center;
     border: 40px;
 }
+.imgGRBGtext
+{
+    width: 530px;
+    height: 400px;
+    max-width: 530px;
+    background-image: url('photo/imgGRtextbg.png');  
+    font-family: 'Yeseva One', cursive;
+}
+.imgGRText
+{
+    margin: 30px;
+    width: 400px;
+    height: 250px;
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
 /*section Just the right food*/
+
 .containerjust
 {
     max-width: auto;
